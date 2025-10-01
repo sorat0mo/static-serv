@@ -29,7 +29,7 @@ function initializeBlogContent() {
       const blogHTML = `
       <h4>${post.title}</h4>
       <p>${post.description.split(' ').slice(0, blogConfig.wordCount).join(' ')}...</p>
-      <a href="${post.link}" class="read-more" aria-label="Read more about ${post.title}">Read More →</a>`;
+      <a href="${post.link}" class="read-more" target="_blank" rel="noopener noreferrer" aria-label="Read more about ${post.title}">Read More →</a>`;
 
       postContentElement.innerHTML = trustedTypesPolicy
       ? trustedTypesPolicy.createHTML(sanitize(blogHTML))
