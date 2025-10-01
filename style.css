@@ -1,0 +1,83 @@
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+}
+
+body {
+  color: #ddd;
+}
+
+#quote {
+  text-align: left;
+  font-size: 90%;
+  display: block;
+  margin: 1em 40px;
+  padding: 0.5em 10px;
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#latest-projects :is(h1, h2, h3, h4, h5, h6) {
+  text-align: left;
+  margin: 0;
+}
+
+#latest-projects .fa-git-alt {
+  color: #f54c27;
+}
+
+#info .fa-briefcase {
+  color: #986a44;
+}
+
+#info .fa-location-dot {
+  color: #c01c28;
+}
+
+#bio {
+  text-align: justify;
+  font-size: 90%;
+}
+
+#profile-items .omg-prami {
+  color: #ff69ad;
+}
+
+#profile-items .fa-blog {
+  color: #74c0fc;
+}
+
+#profile-items .fa-seedling {
+  color: #37b24d;
+}
+
+#profile-items .fa-paw {
+  color: #ffa348;
+}
+
+#profile-items .fa-envelope {
+  color: #f6d32d;
+}
+
+#footer {
+  margin-top: 0;
+}
+
+#footer a:link, #footer a:visited, #footer a:hover, #footer a:active {
+  color: #fff;
+}
+
+#details {
+  text-align: left;
+}
+
+#footer .prami-logo {
+  height: 1em;
+  transition: all 0.3s ease;
+  margin: 0 .3em -.1em 0;
+}
+
+#footer:hover .prami-logo {
+  transform: scale(1.5) rotate(20deg);
+  transition: all 0.3s ease;
+}
